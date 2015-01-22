@@ -25,5 +25,13 @@
     template="preview-item.pt"
     permission="zope2.View"
     />
+  
+  <!-- A faceted summary view -->
+  <faceted:view
+    name="faceted-summary-view"
+    template="summary.pt"
+    title="Faceted summary view"
+    permission="zope2.View"
+  />
 
 </configure>
